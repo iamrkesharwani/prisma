@@ -1,0 +1,22 @@
+export const products = [
+  { name: 'iPhone 15', price: 79999, category: 'Electronics', inStock: true },
+  { name: 'Samsung S24', price: 74999, category: 'Electronics', inStock: false },
+  { name: 'MacBook Air', price: 90000, category: 'Electronics', inStock: true },
+  { name: 'Nike Shoes', price: 5000, category: 'Fashion', inStock: true },
+  { name: 'Adidas T-shirt', price: 2000, category: 'Fashion', inStock: false },
+  { name: 'Coffee Mug', price: 500, category: 'Home', inStock: true },
+  { name: 'Sony Headphones', price: 8999, category: 'Electronics', inStock: true },
+  { name: 'Dell Monitor', price: 15000, category: 'Electronics', inStock: false },
+  { name: 'Gaming Keyboard', price: 3500, category: 'Electronics', inStock: true },
+  { name: 'Gaming Mouse', price: 2500, category: 'Electronics', inStock: true },
+  { name: 'Backpack', price: 1800, category: 'Fashion', inStock: false },
+  { name: 'Leather Wallet', price: 1200, category: 'Fashion', inStock: true },
+  { name: 'Running Shorts', price: 1500, category: 'Fashion', inStock: true },
+  { name: 'Table Lamp', price: 2200, category: 'Home', inStock: false },
+  { name: 'Bedsheet Set', price: 3000, category: 'Home', inStock: true },
+  { name: 'Water Bottle', price: 700, category: 'Home', inStock: true },
+  { name: 'Office Chair', price: 8500, category: 'Home', inStock: false },
+  { name: 'Bluetooth Speaker', price: 4500, category: 'Electronics', inStock: true },
+  { name: 'Smart Watch', price: 12000, category: 'Electronics', inStock: false },
+  { name: 'Sunglasses', price: 2500, category: 'Fashion', inStock: true }
+]

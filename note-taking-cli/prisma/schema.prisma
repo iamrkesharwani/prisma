@@ -12,3 +12,10 @@ model Users {
   email String @unique
   age   Int
 }
+
+model Notes {
+  id        Int      @id @default(autoincrement())
+  title     String   @unique
+  content   String
+  createdAt DateTime @default(now())
+}

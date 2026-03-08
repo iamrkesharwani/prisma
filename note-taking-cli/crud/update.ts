@@ -14,7 +14,22 @@ const main = async () => {
       age: 16,
     },
   });
-  console.log('Update Successful! Nayi details:', updatedUser)
+  console.log('Update Successful! Nayi details:', updatedUser);
 };
 
-main()
+// main()
+
+const update = async () => {
+  const user = await prisma.users.upsert({
+    where: { email: 'rahul@email.com' },
+    update: { age: 17 },
+    create: {
+      email: 'rahul@email.com',
+      name: 'Rahul',
+      age: 16,
+    },
+  });
+  console.log('Upsert Success:', user);
+};
+
+update();

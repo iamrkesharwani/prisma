@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "Post" ADD COLUMN     "published" BOOLEAN NOT NULL DEFAULT false,
+ALTER COLUMN "content" DROP NOT NULL;
+
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "name" DROP NOT NULL;
